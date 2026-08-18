@@ -1,0 +1,5 @@
+# Exclude generated interactive visualizations from language statistics
+visualizations/*.html linguist-documentation
+
+# Count Jupyter notebooks as Python
+*.ipynb linguist-language=Python
