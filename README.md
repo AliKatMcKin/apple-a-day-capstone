@@ -1,19 +1,6 @@
 # An Apple a Day Keeps Prison Away
-Analyzing State-Level Patterns in Children's Social Program Investment 
-and Criminal Justice Outcomes
 
-**Author:** Alissa McKinney  
-**Course:** D502 Data Analytics Capstone  
-**Western Governors University | 2026**
-
-## Project Overview
-This project uses K-Means clustering to examine the relationship between 
-per capita investment in children's social programs (SNAP, Medicaid/CHIP, 
-Head Start) and criminal justice outcomes (violent crime and incarceration 
-rates) across U.S. states from 2001-2016.
-
-
-# An Apple a Day Keeps Prison Away
+## Overview
 
 **Do states that invest more in children's social programs see less crime and incarceration? Not in a straight line — but the states with the worst outcomes were never the ones investing the most.**
 
@@ -24,7 +11,7 @@ K-Means clustering of all 50 U.S. states on per capita children's social program
 
 ---
 
-## The Question
+## Research Question
 
 Public spending on children is usually defended on moral grounds. This project asked whether it also shows up in downstream criminal justice outcomes:
 
@@ -32,7 +19,7 @@ Public spending on children is usually defended on moral grounds. This project a
 
 The hypothesis going in was a simple inverse relationship — more investment, less crime.
 
-## What I Found
+## Findings
 
 **The linear hypothesis was not supported.** But the clustering surfaced something more interesting than a clean correlation would have.
 
@@ -64,7 +51,7 @@ The clusters also track recognizable **geographic patterns**, despite the model 
 
 🗺️ **[Interactive choropleth map](visualizations/choropleth_map.html)** — cluster assignment by state. The geographic grouping is the clearest signal in the whole analysis and isn't something the algorithm was given any location data to find. *(Download and open in a browser — GitHub doesn't render HTML inline.)*
 
-## The Data
+## Source Data
 
 | Source | File | Contents |
 |---|---|---|
@@ -118,4 +105,4 @@ jupyter notebook apple_a_day_capstone.ipynb
 
 ---
 
-*Completed as the D502 Data Analytics Capstone for the BS in Data Analytics at Western Governors University, 2026. Author: Alissa McKinney.*
+*Data Analytics Capstone for BS in Data Analytics at Western Governors University, 2026. Author: Alissa McKinney.*
